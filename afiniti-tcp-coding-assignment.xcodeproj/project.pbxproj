@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		BFA643DE26496CDF0036E411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643DD26496CDF0036E411 /* AppDelegate.swift */; };
 		BFA643E026496CDF0036E411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643DF26496CDF0036E411 /* SceneDelegate.swift */; };
-		BFA643E226496CDF0036E411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643E126496CDF0036E411 /* ViewController.swift */; };
 		BFA643E526496CDF0036E411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E326496CDF0036E411 /* Main.storyboard */; };
 		BFA643E726496CE00036E411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E626496CE00036E411 /* Assets.xcassets */; };
 		BFA643EA26496CE00036E411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E826496CE00036E411 /* LaunchScreen.storyboard */; };
+		BFA64407264996A60036E411 /* ImageCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA64406264996A60036E411 /* ImageCC.swift */; };
+		BFA6440B264996DA0036E411 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA6440A264996DA0036E411 /* ImagesViewController.swift */; };
+		BFA6441D2649C8110036E411 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA6441C2649C8110036E411 /* ImageDownloadManager.swift */; };
+		BFA644242649C9160036E411 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA644232649C9160036E411 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFA643DA26496CDF0036E411 /* afiniti-tcp-coding-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "afiniti-tcp-coding-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA643DD26496CDF0036E411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA643DF26496CDF0036E411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFA643E126496CDF0036E411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFA643E426496CDF0036E411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA643E626496CE00036E411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA643E926496CE00036E411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA643EB26496CE00036E411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		BFA64406264996A60036E411 /* ImageCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCC.swift; sourceTree = "<group>"; };
+		BFA6440A264996DA0036E411 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		BFA6441C2649C8110036E411 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		BFA644232649C9160036E411 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 				BFA643F626496D690036E411 /* ViewControllers Layer */,
 				BFA643F726496D7E0036E411 /* ViewModels Layer */,
 				BFA643F826496D8D0036E411 /* Networking */,
+				BFA644172649A4090036E411 /* Utils */,
+				BFA644222649C8F00036E411 /* Constants and Globals */,
 				BFA643F926496D990036E411 /* Supporting Files */,
 				BFA643FA26496DA40036E411 /* Assets and Resources */,
 			);
@@ -86,7 +94,7 @@
 		BFA643F626496D690036E411 /* ViewControllers Layer */ = {
 			isa = PBXGroup;
 			children = (
-				BFA643E126496CDF0036E411 /* ViewController.swift */,
+				BFA64409264996BC0036E411 /* ImagesViewController */,
 			);
 			path = "ViewControllers Layer";
 			sourceTree = "<group>";
@@ -137,6 +145,31 @@
 				BFA643DF26496CDF0036E411 /* SceneDelegate.swift */,
 			);
 			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		BFA64409264996BC0036E411 /* ImagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFA64406264996A60036E411 /* ImageCC.swift */,
+				BFA6440A264996DA0036E411 /* ImagesViewController.swift */,
+			);
+			path = ImagesViewController;
+			sourceTree = "<group>";
+		};
+		BFA644172649A4090036E411 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFA6441C2649C8110036E411 /* ImageDownloadManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFA644222649C8F00036E411 /* Constants and Globals */ = {
+			isa = PBXGroup;
+			children = (
+				BFA644232649C9160036E411 /* Constants.swift */,
+			);
+			path = "Constants and Globals";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA643E226496CDF0036E411 /* ViewController.swift in Sources */,
+				BFA6440B264996DA0036E411 /* ImagesViewController.swift in Sources */,
 				BFA643DE26496CDF0036E411 /* AppDelegate.swift in Sources */,
+				BFA6441D2649C8110036E411 /* ImageDownloadManager.swift in Sources */,
+				BFA64407264996A60036E411 /* ImageCC.swift in Sources */,
 				BFA643E026496CDF0036E411 /* SceneDelegate.swift in Sources */,
+				BFA644242649C9160036E411 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
