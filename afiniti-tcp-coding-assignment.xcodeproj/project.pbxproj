@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7AC8D6426495F780093A7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC8D6326495F780093A7DB /* AppDelegate.swift */; };
-		B7AC8D6626495F780093A7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC8D6526495F780093A7DB /* SceneDelegate.swift */; };
-		B7AC8D6826495F780093A7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC8D6726495F780093A7DB /* ViewController.swift */; };
-		B7AC8D6B26495F780093A7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AC8D6926495F780093A7DB /* Main.storyboard */; };
-		B7AC8D6D26495F790093A7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AC8D6C26495F790093A7DB /* Assets.xcassets */; };
-		B7AC8D7026495F790093A7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AC8D6E26495F790093A7DB /* LaunchScreen.storyboard */; };
+		BFA643DE26496CDF0036E411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643DD26496CDF0036E411 /* AppDelegate.swift */; };
+		BFA643E026496CDF0036E411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643DF26496CDF0036E411 /* SceneDelegate.swift */; };
+		BFA643E226496CDF0036E411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA643E126496CDF0036E411 /* ViewController.swift */; };
+		BFA643E526496CDF0036E411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E326496CDF0036E411 /* Main.storyboard */; };
+		BFA643E726496CE00036E411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E626496CE00036E411 /* Assets.xcassets */; };
+		BFA643EA26496CE00036E411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA643E826496CE00036E411 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B7AC8D6026495F780093A7DB /* afiniti-tcp-coding-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "afiniti-tcp-coding-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7AC8D6326495F780093A7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7AC8D6526495F780093A7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7AC8D6726495F780093A7DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7AC8D6A26495F780093A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B7AC8D6C26495F790093A7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B7AC8D6F26495F790093A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7AC8D7126495F790093A7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		BFA643DA26496CDF0036E411 /* afiniti-tcp-coding-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "afiniti-tcp-coding-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA643DD26496CDF0036E411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA643DF26496CDF0036E411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFA643E126496CDF0036E411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA643E426496CDF0036E411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA643E626496CE00036E411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA643E926496CE00036E411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA643EB26496CE00036E411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7AC8D5D26495F780093A7DB /* Frameworks */ = {
+		BFA643D726496CDF0036E411 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,104 +37,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B7AC8D5726495F780093A7DB = {
+		BFA643D126496CDF0036E411 = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6226495F780093A7DB /* afiniti-tcp-coding-assignment */,
-				B7AC8D6126495F780093A7DB /* Products */,
+				BFA643DC26496CDF0036E411 /* afiniti-tcp-coding-assignment */,
+				BFA643DB26496CDF0036E411 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B7AC8D6126495F780093A7DB /* Products */ = {
+		BFA643DB26496CDF0036E411 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6026495F780093A7DB /* afiniti-tcp-coding-assignment.app */,
+				BFA643DA26496CDF0036E411 /* afiniti-tcp-coding-assignment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7AC8D6226495F780093A7DB /* afiniti-tcp-coding-assignment */ = {
+		BFA643DC26496CDF0036E411 /* afiniti-tcp-coding-assignment */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D772649606E0093A7DB /* Models Layer */,
-				B7AC8D782649607B0093A7DB /* Views Layer */,
-				B7AC8D7A2649609C0093A7DB /* ViewControllers Layer */,
-				B7AC8D792649608D0093A7DB /* ViewModels Layer */,
-				B7AC8D7C264960F80093A7DB /* Networking */,
-				B7AC8D7B264960B50093A7DB /* Supporting Files */,
-				B7AC8D7D264961020093A7DB /* Assets and Resources */,
+				BFA643F226496D4D0036E411 /* Models Layer */,
+				BFA643F326496D5B0036E411 /* Views Layer */,
+				BFA643F626496D690036E411 /* ViewControllers Layer */,
+				BFA643F726496D7E0036E411 /* ViewModels Layer */,
+				BFA643F826496D8D0036E411 /* Networking */,
+				BFA643F926496D990036E411 /* Supporting Files */,
+				BFA643FA26496DA40036E411 /* Assets and Resources */,
 			);
 			path = "afiniti-tcp-coding-assignment";
 			sourceTree = "<group>";
 		};
-		B7AC8D772649606E0093A7DB /* Models Layer */ = {
+		BFA643F226496D4D0036E411 /* Models Layer */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "Models Layer";
 			sourceTree = "<group>";
 		};
-		B7AC8D782649607B0093A7DB /* Views Layer */ = {
+		BFA643F326496D5B0036E411 /* Views Layer */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6926495F780093A7DB /* Main.storyboard */,
-				B7AC8D6E26495F790093A7DB /* LaunchScreen.storyboard */,
+				BFA643E326496CDF0036E411 /* Main.storyboard */,
+				BFA643E826496CE00036E411 /* LaunchScreen.storyboard */,
 			);
 			path = "Views Layer";
 			sourceTree = "<group>";
 		};
-		B7AC8D792649608D0093A7DB /* ViewModels Layer */ = {
+		BFA643F626496D690036E411 /* ViewControllers Layer */ = {
+			isa = PBXGroup;
+			children = (
+				BFA643E126496CDF0036E411 /* ViewController.swift */,
+			);
+			path = "ViewControllers Layer";
+			sourceTree = "<group>";
+		};
+		BFA643F726496D7E0036E411 /* ViewModels Layer */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "ViewModels Layer";
 			sourceTree = "<group>";
 		};
-		B7AC8D7A2649609C0093A7DB /* ViewControllers Layer */ = {
-			isa = PBXGroup;
-			children = (
-				B7AC8D6726495F780093A7DB /* ViewController.swift */,
-			);
-			path = "ViewControllers Layer";
-			sourceTree = "<group>";
-		};
-		B7AC8D7B264960B50093A7DB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7AC8D7E2649613F0093A7DB /* AppDelegate+Services */,
-				B7AC8D7F264961650093A7DB /* SceneDelegate */,
-				B7AC8D7126495F790093A7DB /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B7AC8D7C264960F80093A7DB /* Networking */ = {
+		BFA643F826496D8D0036E411 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		B7AC8D7D264961020093A7DB /* Assets and Resources */ = {
+		BFA643F926496D990036E411 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6C26495F790093A7DB /* Assets.xcassets */,
+				BFA643FB26496DB30036E411 /* AppDelegate+Services */,
+				BFA643FC26496DC00036E411 /* SceneDelegate */,
+				BFA643EB26496CE00036E411 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA643FA26496DA40036E411 /* Assets and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFA643E626496CE00036E411 /* Assets.xcassets */,
 			);
 			path = "Assets and Resources";
 			sourceTree = "<group>";
 		};
-		B7AC8D7E2649613F0093A7DB /* AppDelegate+Services */ = {
+		BFA643FB26496DB30036E411 /* AppDelegate+Services */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6326495F780093A7DB /* AppDelegate.swift */,
+				BFA643DD26496CDF0036E411 /* AppDelegate.swift */,
 			);
 			path = "AppDelegate+Services";
 			sourceTree = "<group>";
 		};
-		B7AC8D7F264961650093A7DB /* SceneDelegate */ = {
+		BFA643FC26496DC00036E411 /* SceneDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				B7AC8D6526495F780093A7DB /* SceneDelegate.swift */,
+				BFA643DF26496CDF0036E411 /* SceneDelegate.swift */,
 			);
 			path = SceneDelegate;
 			sourceTree = "<group>";
@@ -142,13 +142,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7AC8D5F26495F780093A7DB /* afiniti-tcp-coding-assignment */ = {
+		BFA643D926496CDF0036E411 /* afiniti-tcp-coding-assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7AC8D7426495F790093A7DB /* Build configuration list for PBXNativeTarget "afiniti-tcp-coding-assignment" */;
+			buildConfigurationList = BFA643EE26496CE00036E411 /* Build configuration list for PBXNativeTarget "afiniti-tcp-coding-assignment" */;
 			buildPhases = (
-				B7AC8D5C26495F780093A7DB /* Sources */,
-				B7AC8D5D26495F780093A7DB /* Frameworks */,
-				B7AC8D5E26495F780093A7DB /* Resources */,
+				BFA643D626496CDF0036E411 /* Sources */,
+				BFA643D726496CDF0036E411 /* Frameworks */,
+				BFA643D826496CDF0036E411 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,24 +156,24 @@
 			);
 			name = "afiniti-tcp-coding-assignment";
 			productName = "afiniti-tcp-coding-assignment";
-			productReference = B7AC8D6026495F780093A7DB /* afiniti-tcp-coding-assignment.app */;
+			productReference = BFA643DA26496CDF0036E411 /* afiniti-tcp-coding-assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B7AC8D5826495F780093A7DB /* Project object */ = {
+		BFA643D226496CDF0036E411 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					B7AC8D5F26495F780093A7DB = {
-						CreatedOnToolsVersion = 12.5;
+					BFA643D926496CDF0036E411 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = B7AC8D5B26495F780093A7DB /* Build configuration list for PBXProject "afiniti-tcp-coding-assignment" */;
+			buildConfigurationList = BFA643D526496CDF0036E411 /* Build configuration list for PBXProject "afiniti-tcp-coding-assignment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,55 +181,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B7AC8D5726495F780093A7DB;
-			productRefGroup = B7AC8D6126495F780093A7DB /* Products */;
+			mainGroup = BFA643D126496CDF0036E411;
+			productRefGroup = BFA643DB26496CDF0036E411 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7AC8D5F26495F780093A7DB /* afiniti-tcp-coding-assignment */,
+				BFA643D926496CDF0036E411 /* afiniti-tcp-coding-assignment */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B7AC8D5E26495F780093A7DB /* Resources */ = {
+		BFA643D826496CDF0036E411 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AC8D7026495F790093A7DB /* LaunchScreen.storyboard in Resources */,
-				B7AC8D6D26495F790093A7DB /* Assets.xcassets in Resources */,
-				B7AC8D6B26495F780093A7DB /* Main.storyboard in Resources */,
+				BFA643EA26496CE00036E411 /* LaunchScreen.storyboard in Resources */,
+				BFA643E726496CE00036E411 /* Assets.xcassets in Resources */,
+				BFA643E526496CDF0036E411 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B7AC8D5C26495F780093A7DB /* Sources */ = {
+		BFA643D626496CDF0036E411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AC8D6826495F780093A7DB /* ViewController.swift in Sources */,
-				B7AC8D6426495F780093A7DB /* AppDelegate.swift in Sources */,
-				B7AC8D6626495F780093A7DB /* SceneDelegate.swift in Sources */,
+				BFA643E226496CDF0036E411 /* ViewController.swift in Sources */,
+				BFA643DE26496CDF0036E411 /* AppDelegate.swift in Sources */,
+				BFA643E026496CDF0036E411 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7AC8D6926495F780093A7DB /* Main.storyboard */ = {
+		BFA643E326496CDF0036E411 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7AC8D6A26495F780093A7DB /* Base */,
+				BFA643E426496CDF0036E411 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B7AC8D6E26495F790093A7DB /* LaunchScreen.storyboard */ = {
+		BFA643E826496CE00036E411 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7AC8D6F26495F790093A7DB /* Base */,
+				BFA643E926496CE00036E411 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B7AC8D7226495F790093A7DB /* Debug */ = {
+		BFA643EC26496CE00036E411 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -298,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		B7AC8D7326495F790093A7DB /* Release */ = {
+		BFA643ED26496CE00036E411 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -353,7 +353,7 @@
 			};
 			name = Release;
 		};
-		B7AC8D7526495F790093A7DB /* Debug */ = {
+		BFA643EF26496CE00036E411 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		B7AC8D7626495F790093A7DB /* Release */ = {
+		BFA643F026496CE00036E411 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -394,25 +394,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7AC8D5B26495F780093A7DB /* Build configuration list for PBXProject "afiniti-tcp-coding-assignment" */ = {
+		BFA643D526496CDF0036E411 /* Build configuration list for PBXProject "afiniti-tcp-coding-assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AC8D7226495F790093A7DB /* Debug */,
-				B7AC8D7326495F790093A7DB /* Release */,
+				BFA643EC26496CE00036E411 /* Debug */,
+				BFA643ED26496CE00036E411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7AC8D7426495F790093A7DB /* Build configuration list for PBXNativeTarget "afiniti-tcp-coding-assignment" */ = {
+		BFA643EE26496CE00036E411 /* Build configuration list for PBXNativeTarget "afiniti-tcp-coding-assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7AC8D7526495F790093A7DB /* Debug */,
-				B7AC8D7626495F790093A7DB /* Release */,
+				BFA643EF26496CE00036E411 /* Debug */,
+				BFA643F026496CE00036E411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B7AC8D5826495F780093A7DB /* Project object */;
+	rootObject = BFA643D226496CDF0036E411 /* Project object */;
 }
