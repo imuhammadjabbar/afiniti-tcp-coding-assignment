@@ -43,7 +43,7 @@ class ImageCC: UITableViewCell {
     }
     
     //
-    // MARK: - Download Image
+    // MARK: - Download Image - Simultaneously
     //
     func downloadImage(url: String) {
         // randomImage.image = UIImage(named: "placeholderImage");
@@ -52,10 +52,12 @@ class ImageCC: UITableViewCell {
             // Cehck If Image is Cached or If it is not a Previous Cell Image
             if cached || (url == self.previousImageUrl) {
                 self.randomImage.image = image;
+                if let indexPath = self.indexPath { // Testing Simultaneous Image Download
+                    print("Image Downloaded: \(indexPath.row)");
+                }
                 
-                // TODO: Send Images to Packet Sender / Other Phone
+                // Send Images to Packet Sender / Other Phone
                 self.send(image: image)
-                
             }
         }, placeholderImage: UIImage(named: "placeholderImage"))
         
@@ -63,7 +65,7 @@ class ImageCC: UITableViewCell {
     }
     
     //
-    // MARK: - Send Image Data to Other Device
+    // MARK: - Send Image Data to Other Device / Packet Sender
     //
     func send(image: UIImage?) {
         if let image = image {
