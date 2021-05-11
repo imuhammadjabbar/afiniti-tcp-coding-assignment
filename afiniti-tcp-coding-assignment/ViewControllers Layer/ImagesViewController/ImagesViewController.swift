@@ -45,6 +45,8 @@ extension ImagesViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageCC", for: indexPath) as! ImageCC;
+        
+        cell.indexPath = indexPath;
         cell.downloadImage(url: Constants.images[indexPath.row]);
         
         return cell;

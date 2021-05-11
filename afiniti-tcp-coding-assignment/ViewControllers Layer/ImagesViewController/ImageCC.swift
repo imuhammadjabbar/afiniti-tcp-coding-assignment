@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Socket
 
 class ImageCC: UITableViewCell {
     
@@ -17,8 +18,16 @@ class ImageCC: UITableViewCell {
     //
     // MARK: - Properties
     //
-    // A previous URL temporarily stored to keep track of previous URL vs. current URL since cells are being reused
-    var previousImageUrl: String?
+    var previousImageUrl: String? // Previous Cell Image URL
+    var indexPath: IndexPath? {
+        didSet {
+            /*
+            if let indexPath = indexPath {
+                print("Row: \(indexPath.row)");
+            }
+            */
+        }
+    }
     
     //
     // MARK: - Cell LifeCycle
@@ -40,14 +49,44 @@ class ImageCC: UITableViewCell {
         // randomImage.image = UIImage(named: "placeholderImage");
         
         ImageDownloadManager.shared.download(url: url, completionHandler: { (image, cached) in
-            // We will use two conditions here. Their description is as follows,
-            // Either image is cached, in which case it is returned synchronously. If image is not cached, it will be returned asynchronously, in which case we want to store the previous image URL and compare it against the most recent value represented by fullImageUrlString property associated with Movie object. If they do not match, do not apply the image since it now belongs to previous cell which has since been reused.
+            // Cehck If Image is Cached or If it is not a Previous Cell Image
             if cached || (url == self.previousImageUrl) {
                 self.randomImage.image = image;
+                
+                // TODO: Send Images to Packet Sender / Other Phone
+                self.send(image: image)
+                
             }
         }, placeholderImage: UIImage(named: "placeholderImage"))
         
         previousImageUrl = url;
+    }
+    
+    //
+    // MARK: - Send Image Data to Other Device
+    //
+    func send(image: UIImage?) {
+        if let image = image {
+            do {
+                // Creating a Socket
+                let socket = try Socket.create();
+                
+                // Connecting to Packet Sender
+                try socket.connect(to: "192.168.10.9", port: 51108);
+                
+                // Sending Image Data to Socket / Packet Sender
+                if let imageData = image.jpegData(compressionQuality: 0.5) {
+                    if let indexPath = self.indexPath {
+                        print("Image \(indexPath.row) - Total Bytes: \(imageData.count)");
+                        // try socket.write(from: "Image \(indexPath.row) - Total Bytes: \(imageData.count)");
+                    }
+                    try socket.write(from: imageData);
+                }
+                
+            } catch {
+                print(error.localizedDescription);
+            }
+        }
     }
     
 }

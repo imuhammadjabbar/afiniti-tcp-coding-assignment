@@ -1,0 +1,6 @@
+framework module Pods_afiniti_tcp_coding_assignment {
+  umbrella header "Pods-afiniti-tcp-coding-assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
