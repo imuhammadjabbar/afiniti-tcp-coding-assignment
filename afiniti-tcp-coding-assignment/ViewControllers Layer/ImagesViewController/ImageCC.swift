@@ -82,7 +82,10 @@ class ImageCC: UITableViewCell {
                         print("Image \(indexPath.row) - Total Bytes: \(imageData.count)");
                         // try socket.write(from: "Image \(indexPath.row) - Total Bytes: \(imageData.count)");
                     }
+                    // This sends a small chunk(Based on Buffer Size) of image data to Server
                     try socket.write(from: imageData);
+                    
+                    // TODO: Figure out a way to send all image data
                 }
                 
             } catch {
